@@ -52,3 +52,11 @@ if (temp1 <= 0) {
 } else {
     console.log('karsta');
 }
+
+console.clear();
+
+if (4 == '4') {
+    console.log('Tenkina');
+} else {
+    console.log('Netenkina');    
+}
