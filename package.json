@@ -1,0 +1,19 @@
+{
+  "name": "bit-js",
+  "version": "1.0.0",
+  "description": "Pirmasis projektas apie JS",
+  "main": "index.js",
+  "scripts":  {
+    "if": "node --watch ./js/5-if.js",
+    "boolean": "node --watch ./js/4-boolean.js",
+    "function": "node --watch ./js/3-function.js",
+    "string": "node --watch ./js/2-string.js",  
+    "number": "node --watch ./js/1-number.js",
+    "homework": "node --watch ./js/homework.js",
+    "js": "node ./index.js",  
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ernik",
+  "license": "ISC"
+}
