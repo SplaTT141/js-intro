@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts":  {
     "typeof": "node --watch ./js/7-typeof.js",
+    "marks-average": "node --watch ./practice/marks-average.js",
     "multiply": "node --watch ./practice/multiply.js",
     "adult": "node --watch ./practice/adult.js",
     "text-size": "node --watch ./practice/text-size.js",
