@@ -4,7 +4,7 @@
     - ~~tekstas (sting)~~
     - ~~skaiciai (number)~~
     - ~~logines reiksmes (boolean)~~
-    - sarasas (array)
+    - ~~sarasas (array)~~
     - objektas (object)
     - null
     - undefined
