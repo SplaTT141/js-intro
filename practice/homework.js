@@ -250,9 +250,43 @@ console.log(tusciaFunkcija());
 
 console.clear();
 
-function daugyba(skaicius1, skaicius2) {
-    let rezultatas = skaicius1 * skaicius2;
-    return rezultatas;
+// function daugyba(skaicius1, skaicius2) {
+//     let rezultatas = skaicius1 * skaicius2;
+//     return rezultatas;
+// }
+
+// console.log(daugyba(10,11));
+// console.log(daugyba(1, 1));
+
+function skaitmenuKiekisSkaiciuje(num) {
+    if (typeof num !== 'number' || isNaN(num)) {
+        return 'Pateikta netinkamo tipo reiksme';
+    }
+
+    const skaitmenuKiekis = num.toString();
+    return skaitmenuKiekis.length; 
 }
 
-console.log(daugyba(10,11));
+console.log(skaitmenuKiekisSkaiciuje(5));
+console.log(skaitmenuKiekisSkaiciuje(781));
+console.log(skaitmenuKiekisSkaiciuje(37060123456));
+console.log(skaitmenuKiekisSkaiciuje(true));
+console.log(skaitmenuKiekisSkaiciuje('asd'));
+console.log(skaitmenuKiekisSkaiciuje(NaN));
+
+console.clear();
+
+function didziausiasSkaiciusSarase(array) {
+    if (typeof array === 'undefined') {
+        return 'Pateiktas sarasas negali buti tuscias';
+    }
+
+    if (typeof array !== 'Array') {
+        return 'Pateikta netinkamo tipo reiksme'
+    }
+}
+
+console.log(didziausiasSkaiciusSarase([1, 2]));
+console.log(didziausiasSkaiciusSarase());
+console.log(didziausiasSkaiciusSarase('a'));
+console.log(didziausiasSkaiciusSarase(1));

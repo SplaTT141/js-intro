@@ -4,6 +4,8 @@
   "description": "Pirmasis projektas apie JS",
   "main": "index.js",
   "scripts":  {
+    "multi-table": "node --watch ./practice/multi-table.js",
+    "for": "node --watch ./js/8-for.js",
     "typeof": "node --watch ./js/7-typeof.js",
     "marks-average": "node --watch ./practice/marks-average.js",
     "multiply": "node --watch ./practice/multiply.js",
@@ -16,7 +18,7 @@
     "string": "node --watch ./js/2-string.js",  
     "number": "node --watch ./js/1-number.js",
     "homework": "node --watch ./practice/homework.js",
-    "js": "node ./index.js",  
+    "index": "node ./index.js",  
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

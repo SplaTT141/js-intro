@@ -1,10 +1,12 @@
-console.log(1654565);
-console.log(1);
-console.log(2);
-console.log(2*2+6);
+const skaiciai1 = [1, 2, 3];
 
-console.log(1, 2, 3, "saulius");
+function addNum(sk) {
+    return (sk[0] + sk[1] + sk[2]);
+}
 
-console.log("Sauliui yra", 45)
-console.log("O po 10 metu bus", 45 + 10 ,"metai")
-console.log("prie 45 pridejom 10, t.y.", "45 + 10 =", 45+10)
+function tellNum (sk) {
+    console.log(sk[0]);
+}
+
+let suma = addNum(skaiciai1);
+console.log(addNum(skaiciai1));
