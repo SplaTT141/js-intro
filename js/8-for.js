@@ -59,3 +59,51 @@ console.log('--------------------');
 for (let i = 1; i <= 10; i++) {
     console.log(`${n} * ${i} = ${n * i}`);
 }
+
+console.clear();
+
+const marks = [10, 2, 8, 4, 6];
+
+let sum = 0;
+
+sum += marks[0];
+sum += marks[1];
+sum += marks[2];
+sum += marks[3];
+sum += marks[4];
+
+console.log(sum);
+
+let sum2 = 0;
+
+for (let i = 0; i < marks.length; i++) {
+    console.log('index', i, '-->', marks[i]);
+    sum2 += marks[i];
+}
+
+console.log(sum2);
+
+console.log('------------------');
+
+// Studento vardas yra VARDAS.
+
+const names = ['Jonas', 'Maryte', 'Petras', 'Ona'];
+
+for (let i = 0; i < names.length; i++) {
+    console.log(`Studento vardas yra ${names[i]}`);
+}
+
+console.clear();
+// Vardas "VARDAS" yra sudarytas is 6 raidziu.
+
+for (let i = 0; i < names.length; i++) {
+    console.log(`Vardas ${names[i]} yra sudarytas is ${names[i].length} raidziu`);
+}
+
+console.log('------------------Identiskas rezultatas:');
+
+for (let i = 0; i < names.length; i++) {
+    const name = names[i];
+    const s = `Vardas ${name} yra sudarytas is ${names.length} raidziu`;
+    console.log(s);
+}
