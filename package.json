@@ -4,6 +4,7 @@
   "description": "Pirmasis projektas apie JS",
   "main": "index.js",
   "scripts":  {
+    "interval-count": "node --watch ./practice/interval-count.js",
     "string-reverse": "node --watch ./practice/string-reverse.js",
     "interval-sum": "node --watch ./practice/interval-sum.js",
     "multi-table": "node --watch ./practice/multi-table.js",
