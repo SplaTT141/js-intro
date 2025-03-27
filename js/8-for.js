@@ -100,7 +100,7 @@ for (let i = 0; i < names.length; i++) {
     console.log(`Vardas ${names[i]} yra sudarytas is ${names[i].length} raidziu`);
 }
 
-console.log('------------------Identiskas rezultatas:');
+console.log('\n------------------Identiskas rezultatas: \n');
 
 for (let i = 0; i < names.length; i++) {
     const name = names[i];

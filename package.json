@@ -4,6 +4,8 @@
   "description": "Pirmasis projektas apie JS",
   "main": "index.js",
   "scripts":  {
+    "string-reverse": "node --watch ./practice/string-reverse.js",
+    "interval-sum": "node --watch ./practice/interval-sum.js",
     "multi-table": "node --watch ./practice/multi-table.js",
     "for": "node --watch ./js/8-for.js",
     "typeof": "node --watch ./js/7-typeof.js",
