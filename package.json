@@ -4,6 +4,7 @@
   "description": "Pirmasis projektas apie JS",
   "main": "index.js",
   "scripts":  {
+    "digit-count": "node --watch ./practice/digit-count.js",
     "interval-count": "node --watch ./practice/interval-count.js",
     "string-reverse": "node --watch ./practice/string-reverse.js",
     "interval-sum": "node --watch ./practice/interval-sum.js",
@@ -20,6 +21,7 @@
     "function": "node --watch ./js/3-function.js",
     "string": "node --watch ./js/2-string.js",  
     "number": "node --watch ./js/1-number.js",
+    "homework2": "node --watch ./practice/homework2.js",
     "homework": "node --watch ./practice/homework.js",
     "index": "node ./index.js",  
     "test": "echo \"Error: no test specified\" && exit 1"

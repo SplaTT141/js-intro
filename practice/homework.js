@@ -290,3 +290,186 @@ console.log(didziausiasSkaiciusSarase([1, 2]));
 console.log(didziausiasSkaiciusSarase());
 console.log(didziausiasSkaiciusSarase('a'));
 console.log(didziausiasSkaiciusSarase(1));
+
+console.clear();
+
+// Ciklas
+
+ for (let i = 0; i < 11; i++) {
+    console.log(i);
+ }
+
+ console.clear();
+
+ for (let i = 11; i > 0; i--) {
+    console.log(i);
+ }
+
+ console.clear();
+
+ for (let i = 0; i < 21; i += 2) {
+    console.log(i);
+ }
+
+ console.clear();
+
+ for (let i = 0; i < 21; i++) {
+    if (i % 2 !== 0) {
+        console.log(i);
+    }
+ }
+
+ console.clear();
+
+ for (let i = 0; i < 11; i++) {
+    console.log(i*i);
+ }
+
+console.clear();
+
+for (let i = 0; i < 11; i++) {
+    console.log(i*i*i);
+}
+
+console.clear();
+
+for (let i = 0; i < 11; i++) {
+    console.log('7 *', i, '=', 7 * i);
+}
+
+console.clear();
+
+for (let i = 1; i <= 5; i++) {
+    console.log('*'.repeat(i));
+}
+
+console.clear();
+
+for (let i = 5; i > 0; i--) {
+    console.log('*'.repeat(i));
+}
+
+console.clear();
+
+for (let i = 0; i < 51; i++) {
+    if (i % 3 === 0) {     
+        console.log(i);
+    }
+}
+
+console.clear();
+
+for (let i = 0; i <= 50; i++) {
+    if (i % 5 === 0) {     
+        console.log(i);
+    }
+}
+
+console.clear();
+console.log('------------------');
+
+for (let i = 0; i < 100; i++) {
+    if (i % 3 === 0 && i % 5 === 0)
+        console.log(i);
+}
+
+console.clear();
+console.log('------------------');
+
+for (let i = 0; i < 5; i++) {
+    console.log('Hello, World!');
+}
+
+console.clear();
+console.log('------------------');
+
+//1
+
+for (let i = 1; i <= 100; i++) {
+    if (i % 4 === 0) {
+        console.log(i + ' Fizz')
+    } else {
+        console.log(i);  
+    }
+}
+
+console.clear();
+console.log('------------------');
+
+//2
+
+for (let i = 1; i <= 100; i++) {
+    if (i % 3 === 0) {
+        console.log(i + ' Fizz');
+    }
+    else if (i % 5 === 0) {
+        console.log(i + ' Buzz');
+    }
+    else if (i % 3 === 0 && i % 5 === 0) {
+        console.log(i + ' FizzBuzz');
+    } else {
+        console.log(i);
+    }
+}
+
+console.clear();
+console.log('------------------');
+
+//4
+
+for (let i = 1; i <=20; i++) {
+    if (i % 2 === 0) {
+        console.log(i + ' Even');
+    }
+    
+    if (i % 2 !== 0) {
+        console.log(i + ' Odd');
+    }
+}
+
+console.clear();
+console.log('------------------');
+
+//5
+
+for (let i = 0; i <= 10; i++) {
+    console.log(i, '* 8 =' , i * 8);
+}
+
+console.clear();
+console.log('------------------');
+
+//6
+
+for (let i = 1; i <= 30; i++) {
+    if (i % 2 === 0 || i % 3 === 0) {
+        console.log(i);     
+    }
+}
+
+console.clear();
+console.log('------------------');
+
+//3
+
+// let x = 1;
+// let y = 2;
+// let z = 0;
+
+// for (let i = 1; i <= 10; i++) {
+//     if (i === 1) {
+//         console.log(x);
+//     } else if (i === 2) {
+//         console.log(y);
+//     } else {
+//         z = x + y;
+//         x = y;
+//         y = z;
+//         console.log(z);
+//     }
+// }
+
+// for (let i = 0; i <= 10; i++) {
+//     console.log('a'.repeat(i));
+// }
+
