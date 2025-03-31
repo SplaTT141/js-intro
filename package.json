@@ -4,6 +4,7 @@
   "description": "Pirmasis projektas apie JS",
   "main": "index.js",
   "scripts":  {
+    "biggestNumber": "node --watch ./practice/biggestNumber.js",
     "digit-count": "node --watch ./practice/digit-count.js",
     "interval-count": "node --watch ./practice/interval-count.js",
     "string-reverse": "node --watch ./practice/string-reverse.js",

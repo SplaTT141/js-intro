@@ -473,3 +473,31 @@ console.log('------------------');
 //     console.log('a'.repeat(i));
 // }
 
+//7
+
+function primeNumber(number1) {
+    if (number1 <= 2) {
+        return `Skacius yra pirminis`;
+    }
+    for (let i = 2; i <= 100 ; i++) {
+        if (number1 % i === 0) {
+        return "Skaicius nera pirminis"
+    } else {
+        return `Skaicius yra pirminis`
+    }
+}
+}
+
+console.log(primeNumber(51))
+
+//9
+
+// let sum = 0
+
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 2 === 0) {
+//         console.log(i);
+//     } for (let m = i; m <= i; m++) {
+//         console.log(m + i);
+//     }
+// }
