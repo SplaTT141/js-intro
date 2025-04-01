@@ -5,16 +5,16 @@
     - ~~skaiciai (number)~~
     - ~~logines reiksmes (boolean)~~
     - ~~sarasas (array)~~
-    - objektas (object)
-    - null
-    - undefined
+    - ~~objektas (object)~~
+    - ~~null (reiksme neegzistuoja, bet mes ketiname ja gauti/apskaiciuoti)~~
+    - ~~undefined (reiksme neegzistuoja, kai kreipiesi i atminti ir joje nera duomens)~~
 - funkcijos (perpanaudojamas kodo blokas/logika):
     - ~~"paprasta"~~
     - rodykline
     - metodai
+        - ~~Math biblioteka~~
         - string methods
         - number methods
-        - Math biblioteka
         - array methods
         - object methods
 - palyginimas:

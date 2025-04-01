@@ -35,6 +35,4 @@ console.log(skaitmenuKiekisSkaiciuje(Infinity));
 console.log(skaitmenuKiekisSkaiciuje(-Infinity));
 console.log(skaitmenuKiekisSkaiciuje(2000000000000000000000));
 
-console.log(2000000000000000000000);
-
-
+console.log(2000000000000000000000);s

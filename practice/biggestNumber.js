@@ -60,3 +60,15 @@ console.log(biggestNumber([-0.5, Infinity, -2]));
 console.log(biggestNumber([-1, -2, NaN]));
 console.log(biggestNumber([NaN, -1, -2]));
 console.log(biggestNumber([-1, NaN, -2]));
+
+
+console.clear();
+
+function betterThanAverage(classPoints, yourPoints) {
+    let averageGrade = 0
+      for (let i = 0; i < classPoints.lenght; i++) {
+        averageGrade = classPoints[i];   
+      }
+  }
+
+console.log(averageGrade);

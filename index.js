@@ -10,3 +10,4 @@ function tellNum (sk) {
 
 let suma = addNum(skaiciai1);
 console.log(addNum(skaiciai1));
+
