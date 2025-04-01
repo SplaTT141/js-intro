@@ -56,3 +56,29 @@ console.log('Pomidoras'.endsWith('a'));
 console.log('Pomidoras'.endsWith('p'));
 console.log('Pomidoras'.endsWith('s'));  
 console.log('Pomidoras'.endsWith('doras'));  
+
+// indexOf nurodo raides pozicija (nurodo pirma pasitaikiuse)
+console.log(`\nindexOf`);
+console.log('Pomidoras'.indexOf('a'));
+console.log('Pomidoras'.indexOf('P'));
+console.log('Pomidoras'.indexOf('o'));
+console.log('Pomidoras'.indexOf('mido')); // grazina 2, nes prasideda nuo antros pozicijos
+console.log('Pomidoras'.indexOf('p')); // nurodo -1 kai neranda
+
+console.log('Pomidoras'.indexOf('o', 0)); // nurodom pozicija nuo kurios ieskoti
+console.log('Pomidoras'.indexOf('o', 1));
+console.log('Pomidoras'.indexOf('o', 2));
+
+console.log('-----------')
+
+console.log('Kulverstukas'.indexOf('u'));
+console.log('Kulverstukas'.indexOf('u', 0));
+console.log('Kulverstukas'.indexOf('u', 1));
+console.log('Kulverstukas'.indexOf('u', 2));
+
+const k = 'Kulverstukas';
+console.log(k.indexOf('u'))
+console.log(k.indexOf('u', 2))
+console.log(k.indexOf('u', k.indexOf('u') + 1)) //taip randa sekancia raide po pirmos 
+console.log(k.indexOf('s', k.indexOf('s') + 1))
+console.log(k.indexOf('e', k.indexOf('e') + 1)) //nesugebejo rasti kitos e raidos, todel grazino -1
