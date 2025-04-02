@@ -162,20 +162,88 @@ console.log('pomidoras'.slice(3, -3));
 console.log('pomidoras'.slice(-3));
 console.log('pomidoras'.slice(-4));
 
+// trim valo space'us tik is priekio ir galo
+console.log(`\ntrim`)
+
+console.log('pomidoras'.trim());
+console.log(`"${'   pomidoras'.trim()}"`);
+console.log(`"${'   pomidoras           '.trim()}"`);
+console.log(`"${'   pomidoras           abrikosas   '.trim()}"`);
 
 
+// trimEnd valo space'us tik is priekio
+console.log(`\ntrimEnd`)
+
+// trimStart valo space'us tik is galo
+console.log(`\ntrimStart`)
+
+// split dalina i atskiras dalis pagal tam tikra raide
+console.log(`\nsplit`);
+
+const t1 = 'zodis'
+const t1Parts = t1.split()
+const t1Parts2 = t1.split('o')
+const t1Parts3 = t1.split('d')
+
+console.log(t1Parts);
+console.log(t1Parts2);
+console.log(t1Parts3);
+
+const t2 = 'kultivatorius'
+const t2Parts = t2.split('t')
+
+console.log(t2Parts);
+
+const t3 = 'Labas rytas, Lietuva'
+const t3Parts = t3.split(' ')
+
+console.log(t3Parts.length); //suzinom zodziu skaiciu
+
+console.log('duona'.split('d'));
+console.log('duona'.split('a'));
+console.log('duona'.split('o'));
+
+console.log('ana'.split('a'));
+
+console.log('vasara'.split('a')); 
+console.log('vasara'.split('')); //dalinam paraidziui
+
+console.log(''.split(''));
+
+const t4 = 'Labas. Ka tu. Ka tu veiki.';
+console.log(t4.split('.').length - 1); //sakiniu kiekis
+
+// charCodeAt suranda simboli pagal ascii lentele
+console.log(`\ncharCodeAt`);
+
+console.log('A'.charCodeAt(0));
+console.log('a'.charCodeAt(0));
+console.log('Ą'.charCodeAt(0));
+console.log('ą'.charCodeAt(0));
+
+if ('A' > 'a') {
+    console.log('Daugiau');
+} else {
+    console.log('Maziau');
+}
+
+if ('labas' > 'iki') {
+    console.log('Daugiau');
+} else {
+    console.log('Maziau');
+}
+
+const s1 = String.fromCharCode(65);
+console.log(s1);
+
+const s2 = String.fromCharCode(1547);
+console.log(s2);
 
 
-
-
-
-
-
-
-
-
-
-
+console.log(String.fromCharCode(78784))
+console.log(String.fromCharCode(54545))
+console.log(String.fromCharCode(7874545))
+console.log(String.fromCharCode(78488))
 
 
 
