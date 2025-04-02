@@ -82,3 +82,118 @@ console.log(k.indexOf('u', 2))
 console.log(k.indexOf('u', k.indexOf('u') + 1)) //taip randa sekancia raide po pirmos 
 console.log(k.indexOf('s', k.indexOf('s') + 1))
 console.log(k.indexOf('e', k.indexOf('e') + 1)) //nesugebejo rasti kitos e raidos, todel grazino -1
+
+// repaet
+console.log(`\nrepeat`);
+console.log('a');
+console.log('aaaaaaaaaaaaaa');
+console.log('a'.repeat(20));
+
+const symbol = 'm';
+const megaSymbol = symbol.repeat(10);
+console.log(megaSymbol);
+
+// function stringRepeat (text, count) {
+//     let result = '';
+
+//     for (let i = 0; i < Math.floor(count); i++) {
+
+//         result += text;
+//     }
+
+//     return result;
+// }
+
+// console.log(stringRepeat('rikiki ', 3.999999));
+
+
+// replace
+console.log(`\nreplace`);
+
+const summer = 'vasara'.replace('a', '-');
+console.log(summer);
+
+const summer2 = 'vasara'.replace('a', '-').replace('a', '-');
+console.log(summer2);
+
+const summer3 = 'vasara'.replace('a', '-').replace('a', '-').replace('a', '-').replace('a', '-');
+console.log(summer3);
+
+const cloud = 'debeselis'.replace(/e/ig, '*'.repeat(3));
+console.log(cloud);
+
+// replaceAll
+console.log(`\nreplaceAll`);
+console.log('vasara'.replaceAll('a', '-'))
+
+console.log('ananasas'.replace('a', ''));
+console.log('ananasas'.replaceAll('a', ''));
+
+// toUpperCase padidina visas mazasias raides
+console.log(`\ntoUpperCase`);
+
+console.log('Labas'.toUpperCase());
+console.log('labas'.toUpperCase());
+
+// toULowerCase sumazina visas didziases raides
+console.log(`\ntoLowerCase`);
+
+console.log('LABAS'.toLowerCase());
+console.log('Labas'.toLowerCase());
+
+// slice
+console.log(`\nslice`);
+
+console.log('pomidoras'.slice());
+console.log('pomidoras'.slice(0));
+console.log('pomidoras'.slice(1));
+console.log('pomidoras'.slice(2));
+
+console.log('pomidoras'.slice(0, 1));
+console.log('pomidoras'.slice(0, 2));
+console.log('pomidoras'.slice(1, 3));
+console.log('pomidoras'.slice(2, 7));
+
+console.log('pomidoras'.slice(3, 1));
+console.log('pomidoras'.slice(0, -1));
+console.log('pomidoras'.slice(0, -2));
+console.log('pomidoras'.slice(3, -3));
+
+console.log('pomidoras'.slice(-3));
+console.log('pomidoras'.slice(-4));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
