@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts":  {
     "object": "node --watch ./js/9-object.js",
+    "valid-name": "node --watch ./practice/valid-name.js",
     "city-array": "node --watch ./practice/city-array.js",
     "letter-text": "node --watch ./practice/letter-text.js",
     "biggestNumber": "node --watch ./practice/biggestNumber.js",
