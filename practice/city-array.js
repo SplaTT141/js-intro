@@ -17,11 +17,13 @@ function travelTime(speed, time) {
     for (i = 0; i < city.length; i += 2) {       
         const cityName = city[i];
         const distance = city[i + 1];
+        const farthestCities = distance;
         
         if (distance <= travelRange) {
-            console.log(cityName + ' ' + distance);
+            console.log(farthestCities);
         }
     }
+
 }
 
 console.log(travelTime(200, 2))
