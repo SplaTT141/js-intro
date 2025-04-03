@@ -142,3 +142,26 @@ for (let i = 0; i < 1000000; i++) {
 }
 
 console.log(counts2);
+
+console.clear()
+
+function countArara(n) {
+    const odd = 'anane'
+    const even = 'adak '
+    
+    if (n === 1) {
+        return odd;
+    }
+    if (n % 2 !== 0) {
+        return even.repeat(n/2) + odd
+    }
+    if (n > 2 && n % 2 === 0) {
+        return even.repeat(n/2).trimEnd();
+    }
+}
+
+console.log(countArara(1))
+console.log(countArara(3))
+console.log(countArara(8))
+console.log(countArara(11))
+console.log(countArara(30))
