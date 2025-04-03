@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts":  {
     "method-number": "node --watch ./js/12-method-number.js",
+    "method-array": "node --watch ./js/13-method-array.js",
     "object": "node --watch ./js/9-object.js",
     "money-format": "node --watch ./practice/money-format.js",
     "easy": "node --watch ./practice/easy.js",
