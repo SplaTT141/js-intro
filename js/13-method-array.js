@@ -109,4 +109,43 @@ const texts = ['agurkas', 'svogunas', 'paprika', 'pomidoras'];
 const products = `Reikalingi produktai: ${texts.join(', ')}.`;
 console.log(products);
 
+//reverse apsuka masyvo reiksmes
+console.log('\nreverse');
+console.log('-'.repeat(15));
 
+console.log(texts);
+texts.reverse();
+console.log(texts);
+
+//concat sujungia masyvus
+console.log('\nconcat');
+console.log('-'.repeat(15));
+
+const c1 = [1, 11];
+const c2 = [2, 22];
+const c3 = [3, 33];
+const c4 = [4, 44];
+
+const c12 = c1.concat(c2)
+console.log(c12);
+
+const c34 = c3.concat(c4);
+console.log(c34);
+
+const c123 = c1.concat(c2).concat(c3);
+console.log(c123);
+
+const c1234 = c1.concat(c2, c3, c4);
+console.log(c1234);
+
+const c111 = c1.concat(c1, c1);
+console.log(c111);
+
+//splice istrina viska arba nurodyta kieki nuo nurodytos pozicijos
+console.log('\nsplice');
+console.log('-'.repeat(15));
+
+const h = [11, 22, 33, 44, 55];
+
+h.splice(1, 2);
+console.log(h);
