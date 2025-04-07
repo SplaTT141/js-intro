@@ -60,3 +60,53 @@ for (i = 0; i < n2.length; i++) {
 }
 
 console.log(n12);
+
+//pop nario pasalinimas (paskunitinis naris)
+console.log('\npop');
+console.log('-'.repeat(15));
+
+const numbers2 = [10, 2, 8, 4, 6];
+
+console.log(numbers2);
+
+numbers2.pop();
+
+const deleted = numbers2.pop();
+
+console.log(numbers2, deleted);
+
+//unshift itraukia nari i prieki
+console.log('\nunshift');
+console.log('-'.repeat(15));
+
+numbers2.unshift(1);
+numbers2.unshift(10);
+
+console.log(numbers2);
+
+//shift pasalina priekini nari
+console.log('\nshift');
+console.log('-'.repeat(15));
+
+numbers2.shift();
+
+console.log(numbers2);
+
+//includes klausiame ar sarase yra kazkoks naris
+console.log('\ninclude');
+console.log('-'.repeat(15));
+
+const magic = [11, 22, 33, 44, 55];
+console.log(magic.includes(5));
+console.log(magic.includes(55));
+
+//join 
+console.log('\njoin');
+console.log('-'.repeat(15));
+
+const texts = ['agurkas', 'svogunas', 'paprika', 'pomidoras'];
+
+const products = `Reikalingi produktai: ${texts.join(', ')}.`;
+console.log(products);
+
+
