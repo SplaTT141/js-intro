@@ -23,7 +23,7 @@
     - switch
 - ciklas:
     - ~~for~~
-    - while
+    - ~~while~~
     - ~~for-of~~
-    - for-in
+    - ~~for-in~~
 - ivykiu stebejimas (event listeners)
