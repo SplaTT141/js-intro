@@ -10,7 +10,7 @@
     - ~~undefined (reiksme neegzistuoja, kai kreipiesi i atminti ir joje nera duomens)~~
 - funkcijos (perpanaudojamas kodo blokas/logika):
     - ~~"paprasta"~~
-    - rodykline
+    - ~~rodykline~~
     - metodai
         - ~~Math biblioteka~~
         - ~~string methods~~
@@ -19,7 +19,7 @@
         - object methods
 - palyginimas:
     - ~~if~~
-    - ternary
+    - ~~ternary~~
     - switch
 - ciklas:
     - ~~for~~
