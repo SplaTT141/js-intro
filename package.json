@@ -4,10 +4,12 @@
   "description": "Pirmasis projektas apie JS",
   "main": "index.js",
   "scripts":  {
+    "ternary": "node --watch ./js/15-ternary.js",
     "arrow": "node --watch ./js/14-arrow.js",
     "method-number": "node --watch ./js/12-method-number.js",
     "method-array": "node --watch ./js/13-method-array.js",
     "object": "node --watch ./js/9-object.js",
+    "codeWars": "node --watch ./practice/codeWars.js",
     "fancy-math": "node --watch ./practice/fancy-math.js",
     "names-split-join": "node --watch ./practice/names-split-join.js",
     "money-format": "node --watch ./practice/money-format.js",
