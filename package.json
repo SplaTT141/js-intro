@@ -4,6 +4,8 @@
   "description": "Pirmasis projektas apie JS",
   "main": "index.js",
   "scripts":  {
+    "while": "node --watch ./js/17-while.js",
+    "for-of": "node --watch ./js/16-for-of.js",
     "ternary": "node --watch ./js/15-ternary.js",
     "arrow": "node --watch ./js/14-arrow.js",
     "method-number": "node --watch ./js/12-method-number.js",
