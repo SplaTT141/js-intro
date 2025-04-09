@@ -241,3 +241,50 @@ console.log(texts5Updated);
 
 const texts5Updated2 = texts5.filter(t => t); // '' yra negatyvus
 console.log(texts5Updated2);
+
+// fill
+console.log('\nfill');
+console.log('-'.repeat(15));
+
+const default5 = [0, 0, 0, 0, 0];
+const default7 = Array(7).fill(99);
+console.log(default7);
+
+const zeros = Array(10);
+const zeros2 = Array(10).fill(0);
+console.log(zeros);
+console.log(zeros2);
+
+const greeting = Array(5).fill('Labas')
+console.log(greeting);
+
+const demo = [2, 4, 6, 7];
+console.log(demo);
+demo.fill(444)
+console.log(demo);
+
+// every tikrina kiekviena salygga ir grazina true jeigu visos reksmes tenkina salyga
+console.log('\nevery');
+console.log('-'.repeat(15));
+
+const trees = ['uosis', 'egle', 'azuolas', 'tuopa'];
+const allTreesValid = trees.every(s => s.length > 0); //suzinom ar nera tusciu kabuciu
+console.log(allTreesValid);
+
+const allTreesNameSize5 = trees.every(s => s.length === 5);
+console.log(allTreesNameSize5);
+
+// some tikrina kiekviena salyga ir grazina true jeigu nors viena reiksme tenkina salyga 
+console.log('\nsome');
+console.log('-'.repeat(15));
+
+const someTreesValid = trees.some(s => s.length > 0);
+console.log(someTreesValid);
+
+const someTreesNameSize5 = trees.some(s => s.length === 5);
+console.log(someTreesNameSize5);
+
+
+
+
+
