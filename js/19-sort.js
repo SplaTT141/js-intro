@@ -22,10 +22,10 @@ numbers.sort((a, b) => b - a);
 console.log(numbers);
 
 const people = [
-    {name: 'Petras', age: 77},
-    {name: 'Jonas', age: 99},
-    {name: 'Ona', age: 66},
-    {name: 'Maryte', age: 88},
+    {name: 'Petras', age: 77, isMarried: false},
+    {name: 'Jonas', age: 99, isMarried: false},
+    {name: 'Ona', age: 66, isMarried: true},
+    {name: 'Maryte', age: 88, isMarried: true},
 ];
 
 people.sort((a, b) => a.age - b.age) //sortiruojam pagal amziu
@@ -37,6 +37,8 @@ console.log(people);
 people.sort((a, b) => a.name > b.name ? 1 : -1) //sortiruojam pagal vardus abecele tvarka
 console.log(people);
 
+people.sort((a, b) => a.isMarried > b.isMarried ? 1 : -1) //sortiruojam pagal isMarried
+console.log(people);
 
 
 
