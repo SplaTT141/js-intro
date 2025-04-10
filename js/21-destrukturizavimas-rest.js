@@ -43,6 +43,51 @@ console.log (p312);
 const p4 = { d: 4, ...p3, c: 99 };
 console.log(p4);
 
+const marks = [10, 2, 8, 4, 6];
+const [first, second, ...rest] = marks;
+
+console.log(first);
+console.log(second);
+console.log(rest);
+
+const names = ['Jonas', 'Maryte', 'Petras', 'Ona']
+const n1 = names[0]
+const n2 = names[1]
+const n34 = names.slice(2);
+
+console.log(n1);
+console.log(n2);
+console.log(n34);
+
+const [x, y, ...z] = names;
+console.log(x);
+console.log(y);
+console.log(z);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

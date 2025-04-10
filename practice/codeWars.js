@@ -108,3 +108,64 @@ function stringClean(s){
   console.log(stringClean('a12b13c'))
 
   console.log('-----------');
+
+  function abbrevName(name){
+
+    const a = name.split(' ')
+    const firstNameAbb = a[0][0]
+    const secondNameAbb = a[1][0]
+    
+    return firstNameAbb.toUpperCase() + '.' + secondNameAbb.toUpperCase() 
+  }
+
+  console.log(abbrevName('Ernest Ivanov'))
+
+console.log('-----------');
+
+function noSpace(x){
+  return x.replaceAll(' ', '');
+}
+
+console.log(noSpace('8aaaaa dddd r     ')) 
+
+console.log('-----------');
+
+function disemvowel(str) {
+  return str.replaceAll(/a|e|i|o|u/ig, '');
+}
+
+console.log(disemvowel("This website is for losers LOL!"))
+//Ths wbst s fr lsrs LL!
+
+console.log('-----------');
+
+function dnaStrand(dna) {
+  return dna.split('').map(base => {
+    if (base === 'A') return 'T';
+    if (base === 'T') return 'A';
+    if (base === 'C') return 'G';
+    if (base === 'G') return 'C';
+  }).join('');
+}
+
+console.log(dnaStrand('ATTGC')) // TAACG
+console.log(dnaStrand('AAAA'))
+
+console.log('-----------');
+
+
+function century(year) {
+  if (year % 100 === 0) {
+    return Math.floor(year / 100)
+  }
+    return Math.floor(year / 100 + 1);
+  }
+  
+console.log(century(1234))
+console.log(century(1900))
+console.log(century(2025))
+console.log(century(101))
+console.log(century(2))
+
+console.log('-----------');
+
