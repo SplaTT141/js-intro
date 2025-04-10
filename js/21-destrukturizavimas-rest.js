@@ -136,13 +136,36 @@ const numbers = [
 // Pirmas skaicius yra X ir dar yra Y papildomu skaiciu
 
 for (const [first, ...rest] of numbers) {    
-    const result = `Pirmas skaicius yra ${first} ir dar yra ${rest.length} papildomu skaiciu`
-    console.log(result)
+    const result = `Pirmas skaicius yra ${first} ir dar yra ${rest.length} papildomu skaiciu`;
+    console.log(result);
 }
 
+Math.min(1);
+Math.min(1, 2, 3, 4);
 
+function min(...list) { // randam maziausia skaiciu masyve
+    let minimum = Infinity;
 
+    for (const number of list) {
+        if (number < minimum) {
+            minimum = number;
+        }
+    }
 
+    return minimum;
+}
+
+console.log(min(1));
+console.log(min(1, 2, 3));
+console.log(min(-1, -2, -3));
+console.log(min(-1, -2, -3, -1, -2, -3));
+
+const ddd = [1, 2, 3];
+
+console.log(...ddd);
+
+console.log(Math.min(...ddd));
+console.log(Math.max(...ddd));
 
 
 
