@@ -227,3 +227,52 @@ function findSmallestInt(arr) {
 }
 
 console.log(findSmallestInt([78, 56, 232, 12, 8]));
+
+console.log("----------");
+
+function filter_list(l) {
+  const onlyNums = [];
+
+  for (i = 0; i < l.length; i++)
+    if (typeof l[i] === "number") {
+      onlyNums.push(l[i]);
+    }
+
+  return onlyNums;
+}
+
+console.log(filter_list([1, 2, "a", "b", 3]));
+
+console.log("----------");
+
+// function digitize(n) {
+//   arr = [n];
+//   for (i = 0; i < n.length; i++) {
+//     arr += n[i];
+//   }
+//   arr.reverse()
+//   return arr.reverse();
+// }
+// console.log(digitize(173));
+
+// function digitize(n) {
+//   const zzz = n.split("");
+// }
+// console.log(digitize(173));
+
+console.log("----------");
+
+function uniqueInOrder(iterable) {
+  let separation = "";
+  if (typeof iterable === "string") {
+    separation = iterable.split("");
+    return separation.filter((a, i) => separation[i - 1] !== a);
+  } else {
+    return iterable.filter((a, i) => iterable[i - 1] !== a);
+  }
+}
+
+console.log(uniqueInOrder("AAAABBBCCDAABBB")); // ['A', 'B', 'C', 'D', 'A', 'B']
+console.log(uniqueInOrder([1, 2, 2, 3, 3])); // [1,2,3]
+
+console.log("----------");
