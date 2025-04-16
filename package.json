@@ -17,6 +17,8 @@
     "method-array": "node --watch ./js/13-method-array.js",
     "object": "node --watch ./js/9-object.js",
     "forTraining": "node --watch ./practice/forTraining.js",
+    "planets": "node --watch ./practice/planets.js",
+    "codeWars2": "node --watch ./practice/codeWars2.js",
     "codeWars": "node --watch ./practice/codeWars.js",
     "fancy-math": "node --watch ./practice/fancy-math.js",
     "names-split-join": "node --watch ./practice/names-split-join.js",

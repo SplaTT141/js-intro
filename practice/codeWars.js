@@ -276,3 +276,18 @@ console.log(uniqueInOrder("AAAABBBCCDAABBB")); // ['A', 'B', 'C', 'D', 'A', 'B']
 console.log(uniqueInOrder([1, 2, 2, 3, 3])); // [1,2,3]
 
 console.log("----------");
+
+function toJadenCase(sentence) {
+  let splitSentence = sentence.toLowerCase().split(" ");
+  for (let i = 0; i < splitSentence.length; i++) {
+    splitSentence[i] =
+      splitSentence[i].charAt(0).toUpperCase() + splitSentence[i].substring(1);
+  }
+  return splitSentence.join(" ");
+}
+
+console.log(toJadenCase("laba diena"));
+console.log(toJadenCase("How can mirrors be real if our eyes aren't real"));
+console.log(toJadenCase("most trees are blue"));
+
+console.log("----------");
