@@ -16,7 +16,9 @@ const getPlanetName = (id) => {
       return "Uranus";
     case 8:
       return "Neptune";
+    default:
+      return "Nibiru";
   }
 };
 
-console.log(getPlanetName(8));
+console.log(getPlanetName(5));
